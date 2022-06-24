@@ -1,0 +1,48 @@
+li,
+a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #212529;
+  border-bottom: 1px solid #2d2d2d;
+  font-family: "Montserrat", sans-serif;
+}
+.nav_contact li {
+  list-style: none;
+  opacity: 0.6;
+}
+.nav_contact li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_social li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.li_top {
+  color: #f9f9f9;
+}
+.nav_contact li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_social li a {
+  transition: all 0.3s ease 0s;
+}
+.li_top:hover {
+  color: #f15f22;
+}
+.nav_social li a:hover {
+  color: #f15f22;
+  transform: scaleX(-1);
+  opacity: 1;
+}

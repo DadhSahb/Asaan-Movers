@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.navbar {
+  background-color: #212529;
+}
+.logo {
+  vertical-align: middle;
+  border-radius: none;
+}
+
+.navbar-nav a {
+  color: aliceblue;
+}
+.navbar-nav a:hover {
+  color: #f15f22;
+}
+@media (min-width: 991px) {
+  .navbar-collapse {
+    /* padding: 1805px 0px; */
+    margin-left: 350px;
+  }
+}
+.navbar-toggler-icon {
+  background-color: #f15f22;
+}
+
+div {
+  display: block;
+}
+.list {
+  display: flex;
+  justify-content: end;
+}
+.linkk {
+  padding: 5px 15px;
+}
+.header-right-btn {
+  padding: 5px;
+}
+.btnn {
+  padding: 10px 20px;
+  background: #f15f22;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 5px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 0;
+  transition: color 0.9s linear;
+  z-index: 1;
+  border: 0;
+  overflow: hidden;
+  margin: 0;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .herodata .hero__caption h1 {
+    font-size: 60px;
+    line-height: 1.2;
+  }
+}

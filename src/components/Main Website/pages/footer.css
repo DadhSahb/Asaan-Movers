@@ -1,0 +1,84 @@
+/*----------------------Footer---------*/
+.footer-area {
+  background: #121212;
+}
+.wantToWork-caption h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+}
+.contact-number {
+  color: #ff5f13;
+  font-size: 36px;
+  font-weight: 700;
+  float: right;
+  margin-top: 50px;
+}
+.footer-heading {
+  padding-bottom: 51px;
+  margin-bottom: 82px;
+  border-bottom: 1px solid #1a2537;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .footer-padding {
+    padding-top: 105px;
+    padding-bottom: 50px;
+  }
+}
+.footer-tittle h4 {
+  color: #fff;
+  margin-top: 15px;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  margin-bottom: 38px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-tittle ul li {
+  color: #bbbcbc;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  list-style: none;
+}
+.footer-tittle ul li a {
+  color: #868c98;
+  font-weight: 300;
+  outline: medium none;
+  text-decoration: none;
+  align-items: center;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
+    padding-right: 0px;
+  }
+}
+.footer-area .footer-top .single-footer-caption .footer-pera .info1 {
+  line-height: 1.8;
+  margin-bottom: 30px;
+  padding-right: 0;
+  color: #c4c4c4;
+  font-size: 14px;
+}
+.footer-copy-right p {
+  color: #bbbcbc;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 12px;
+}
+.wantToWork-caption {
+  margin-top: 50px;
+}
+.footer-social a {
+  padding: 10px;
+  color: #f9f9f9;
+  font-size: 18px;
+  opacity: 0.8;
+}
